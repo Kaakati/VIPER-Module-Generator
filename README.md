@@ -13,14 +13,6 @@ When you decide to use VIPER architecture in your project, it feels overwhelming
 ### UI Ready implementation.
 * [x] Both Options With & Without Generic Functions contains a UI file ready for Implemntation.
 
-## How to install
-
-#### Using script (easy)
-Only need execute this command in terminal:
-```swift
-sudo swift install.swift
-```
-
 ## Generated code
 This template generates all files that you need to create a new VIPER module. All generated code is Swift 4.
 
@@ -32,6 +24,14 @@ IYourFileName for Interactor.
 PYourFileName for Presenter.
 EYourFileName for Entity.
 RYourFileName for Router (Wireframe).
+```
+
+## How to install
+
+#### Using script (easy)
+Only need execute this command in terminal:
+```swift
+sudo swift install.swift
 ```
 
 You should be this output message:
