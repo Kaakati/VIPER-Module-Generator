@@ -26,6 +26,7 @@ This template generates all files that you need to create a new VIPER module. Al
 
 ```swift
 YourFileNameUI for UI as UIView instead of Storyboards.
+CYourFileName for Contracts (Protocol functions holder).
 VYourFileName for View.
 IYourFileName for Interactor.
 PYourFileName for Presenter.
@@ -58,13 +59,13 @@ Go to Application folder, browse to the Xcode application icon. Right-click it a
 ## VIPER Checklist
 To get started easier, we’ve prepared a list of notes to make sure everything follows the VIPER’s design principle. We hope this will be useful to you also as we find it to be.
 
-* [ ] Views and view controllers receive user interactions and pass them to presenters for decision making
-* [ ] Presenters contain the view logics and prepare content for display and reacting to user inputs
-* [ ] Presenters should not know about the existence of all UIViews
-* [ ] Interactors contain business logics and they should be independent of UI
-* [ ] Entities are  model objects manipulated by Interactors
-* [ ] Wireframe is the only place to define screen navigations and their transition animations
-
+* [ ] Views and view controllers receive user interactions and pass them to presenters for decision making.
+* [ ] Presenters contain the view logics and prepare content for display and reacting to user inputs.
+* [ ] Presenters should not know about the existence of all UIViews.
+* [ ] Interactors contain business logics and they should be independent of UI.
+* [ ] Entities are  model objects manipulated by Interactors.
+* [ ] Wireframe is the only place to define screen navigations and their transition animations.
+* [ ] Contracts contains all my functions that I'll use for the project.
 
 
 ## What is VIPER?
@@ -101,9 +102,9 @@ After using VIPER, I've found it to be very beneficial in many ways. Let’s get
 
 Would you like decide what will be the next feature?
 
-* [x] Create bash script to install more easy
-* [x] Divide Interactor protocol (Input & Output) (**NEW!** Version 1.1)
-* [x] Swift 4 & XCode 9 (**NEW!** Version 1.2)
+* [x] Create bash script to install more easy.
+* [x] Divide Interactor protocol (Input & Output) (**NEW!** Version 1.1).
+* [x] Swift 4 & XCode 9 (**NEW!** Version 1.2).
 * [ ] Create Data Layer for Interactor Implementations.
 * [ ] Create a Tutorial on how VIPER Works and how to Implement it in a real-life project.
 
@@ -114,7 +115,7 @@ Would you like decide what will be the next feature?
 - [https://www.ckl.io/blog/ios-project-architecture-using-viper/](https://www.ckl.io/blog/ios-project-architecture-using-viper/)
 
 ## Contributed
-This is an open source project, so feel free to contribute. How?
+This is an open source project, so feel free to contribute.
 - Open an [issue](https://github.com/Kaakti/VIPER-Module-Generator/issues/new).
 
 ## Authors
