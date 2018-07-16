@@ -105,6 +105,7 @@ Would you like decide what will be the next feature?
 * [x] Divide Interactor protocol (Input & Output) (**NEW!** Version 1.1)
 * [x] Swift 4 & XCode 9 (**NEW!** Version 1.2)
 * [ ] Create Data Layer for Interactor Implementations.
+* [ ] Create a Tutorial on how VIPER Works and how to Implement it in a real-life project.
 
 ## References
 - [iOS Architecture Patterns](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52#.ba7q8dcih)
