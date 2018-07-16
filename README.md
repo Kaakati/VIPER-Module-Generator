@@ -13,9 +13,10 @@ When you decide to use VIPER architecture in your project, it feels overwhelming
 ### UI Ready implementation.
 * [x] Both Options With & Without Generic Functions contains a UI file ready for Implemntation.
 
-## Generated code
+## Generated files
 This template generates all files that you need to create a new VIPER module. All generated code is Swift 4.
 
+#### With OR Without Generic Functions.
 | File Name | Acts As | Description |
 | :---         |     :---      |          :--- |
 | `YourFileNameUI.swift`   | UIView     | This is where your design layout should be.  |
@@ -25,6 +26,11 @@ This template generates all files that you need to create a new VIPER module. Al
 | `PYourFileName.swift`    | Presenter  | This is what will communicate with the View and the Interactor.      |
 | `EYourFileName.swift`    | Entity     | This is the Entity, It's should be a String respresntation of your Model.    |
 | `RYourFileName.swift`    | Router     | This is where your routes to another views should be.    |
+
+#### BaseViewProtocol Option.
+| File Name | Acts As | Description |
+| :---         |     :---      |          :--- |
+| `BaseViewProtocol.swift`   | UIViewController     | This where application wide UI Loaders should be.  |
 
 ## How to install
 
