@@ -16,15 +16,15 @@ When you decide to use VIPER architecture in your project, it feels overwhelming
 ## Generated code
 This template generates all files that you need to create a new VIPER module. All generated code is Swift 4.
 
-```swift
-YourFileNameUI for UI as UIView instead of Storyboards.
-CYourFileName for Contracts (Protocol functions holder).
-VYourFileName for View.
-IYourFileName for Interactor.
-PYourFileName for Presenter.
-EYourFileName for Entity.
-RYourFileName for Router (Wireframe).
-```
+| File Name | Acts As | Description |
+| :---         |     :---      |          :--- |
+| `YourFileNameUI.swift`   | UIView     | This is where your design layout should be.  |
+| `CYourFileName.swift`    | Contract   | This is where all your VIPER protocols should be implemented. |
+| `VYourFileName.swift`    | View       | If you use Storyboard, Link this to it and ignore UI file.   |
+| `IYourFileName.swift`    | Interactor | This is what will communicate with the Data Layer and Entity.      |
+| `PYourFileName.swift`    | Presenter  | This is what will communicate with the View and the Interactor.      |
+| `EYourFileName.swift`    | Entity     | This is the Entity, It's should be a String respresntation of your Model.    |
+| `RYourFileName.swift`    | Router     | This is where your routes to another views should be.    |
 
 ## How to install
 
