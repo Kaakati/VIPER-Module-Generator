@@ -4,13 +4,13 @@ Are you new to VIPER Design Pattern? Want to Learn it But feel overwhelemed of a
 
 When you decide to use VIPER architecture in your project, it feels overwhelming to create new modules, because you need create at least 5 files for each. Imagine that you need to create 6 modules...We were suffering of this problem, and this is the reason why We've created this template. It's very useful for us and I hope that it be useful for you too.
 
-## Available Options:
+## Available Generator options:
 * [x] BaseViewProtocol - A Common Functions Placeholder.
 ----
 * [x] With Generic Functions - Protocols with Generic Functions ready for implementation.
 * [x] Without Generic Functions.
 
-### UI Ready Implementation.
+### UI Ready implementation.
 * [x] Both Options With & Without Generic Functions contains a UI file ready for Implemntation.
 
 ## How to install
@@ -43,12 +43,17 @@ If all it's ok you now could find your template in Xcode.
 Go to Application folder, browse to the Xcode application icon. Right-click it and choose 'Show Package Contents'. Then browse to:
 `Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application` and add "Module VIPER.xctemplate" file. Now you can find your template in Xcode.
 
+
+
 ## Easy to use
 ![](/assets/wizard.png)
 
 
+
 ## VIPER diagram overview
 ![Preview](/assets/viper_diagram.png)
+
+
 
 ## VIPER Checklist
 To get started easier, we’ve prepared a list of notes to make sure everything follows the VIPER’s design principle. We hope this will be useful to you also as we find it to be.
@@ -60,7 +65,17 @@ To get started easier, we’ve prepared a list of notes to make sure everything 
 * [ ] Entities are  model objects manipulated by Interactors
 * [ ] Wireframe is the only place to define screen navigations and their transition animations
 
+
+
 ## What is VIPER?
+VIPER is not a framework  but an approach to iOS application architecture, which stands for:
+
+- View
+- Interactor
+- Presenter
+- Entity
+- Routing(Wireframe)
+
 #### VIEW
 The view consists of views and view controllers. It is responsible to receive user interactions and pass them to presenters for decision making. To keep the view simple, it shouldn’t contain any view logics. This is where to define how the view looks like, and nothing beyond this.
 
