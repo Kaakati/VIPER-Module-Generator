@@ -1,12 +1,19 @@
 ![](assets/header.jpg)
 
+> Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+
+----
+
+> The knowledge that I own today is because of my parents support, What I am today is because of their efforts & hardwork providing the best, Thank you Mom & Dad :heart:.
+
+----
+
 Are you new to VIPER Design Pattern? Want to Learn it But feel overwhelmed of all the files you have to create?
 
 When you decide to use VIPER architecture in your project, it feels overwhelming to create new modules, because you need create at least 5 files for each. Imagine that you need to create 6 modules...We were suffering of this problem, and this is the reason why We've created this template. It's very useful for us and I hope that it be useful for you too.
 
 ## Available Generator options:
 * [x] BaseViewProtocol - A Common Functions Placeholder.
-----
 * [x] With Generic Functions - Protocols with Generic Functions ready for implementation.
 * [x] Without Generic Functions.
 
@@ -14,7 +21,7 @@ When you decide to use VIPER architecture in your project, it feels overwhelming
 * [x] Both Options With & Without Generic Functions contains a UI file ready for Implemntation.
 
 ## Generated files
-This template generates all files that you need to create a new VIPER module. All generated code is Swift 4.
+This template generates all files that you need to create a new VIPER module. All generated code is Swift 3.2 & Swift 4 compatible.
 
 #### With OR Without Generic Functions.
 | File Name | Acts As | Description |
@@ -48,7 +55,7 @@ If all it's ok you now could find your template in Xcode.
 
 ### Manual
 Go to Application folder, browse to the Xcode application icon. Right-click it and choose 'Show Package Contents'. Then browse to:
-`Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application` and add "Module VIPER.xctemplate" file. Now you can find your template in Xcode.
+`Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application` and add "VIPER Module.xctemplate" file. Now you can find your template in Xcode.
 
 
 
