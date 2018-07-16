@@ -60,6 +60,7 @@ To get started easier, we’ve prepared a list of notes to make sure everything 
 * [ ] Entities are  model objects manipulated by Interactors
 * [ ] Wireframe is the only place to define screen navigations and their transition animations
 
+## What is VIPER?
 #### VIEW
 The view consists of views and view controllers. It is responsible to receive user interactions and pass them to presenters for decision making. To keep the view simple, it shouldn’t contain any view logics. This is where to define how the view looks like, and nothing beyond this.
 
