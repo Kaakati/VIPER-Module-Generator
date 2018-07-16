@@ -50,13 +50,42 @@ Go to Application folder, browse to the Xcode application icon. Right-click it a
 ## VIPER diagram overview
 ![Preview](/assets/viper_diagram.png)
 
+## VIPER Checklist
+To get started easier, we’ve prepared a list of notes to make sure everything follows the VIPER’s design principle. We hope this will be useful to you also as we find it to be.
+
+* [ ] Views and view controllers receive user interactions and pass them to presenters for decision making
+* [ ] Presenters contain the view logics and prepare content for display and reacting to user inputs
+* [ ] Presenters should not know about the existence of all UIViews
+* [ ] Interactors contain business logics and they should be independent of UI
+* [ ] Entities are  model objects manipulated by Interactors
+* [ ] Wireframe is the only place to define screen navigations and their transition animations
+
+#### VIEW
+The view consists of views and view controllers. It is responsible to receive user interactions and pass them to presenters for decision making. To keep the view simple, it shouldn’t contain any view logics. This is where to define how the view looks like, and nothing beyond this.
+
+#### PRESENTER
+The presenter defines the view logics, e.g. when to show a warning message or highlight a button. It is responsible to prepare content for the view to display. Whenever data is required, the presenter requests data from interactors (but not directly from the model).
+
+#### INTERACTOR
+The interactor mainly contains business logic, e.g. logging in the user /  processing a purchase / sending a friend request. It should be independent of the UI. It only handles requests from the presenter and prepare corresponding data regardless of how the view looks like.
+
+#### ENTITY
+Entities are the model objects manipulated by an Interactor and only by the Interactor. It is simply an NSManagedObject. It is model orientated and therefore should not contain any business logic.
+Something like  is not supposed to be placed inside an Entity.
+
+#### ROUTING (WIREFRAME)
+Wireframe defines the routes from one screen to another. In VIPER, the responsibility for Routing is shared between the presenter and the wireframe.
+When the presenter receives user interactions and decided to navigate to another screen, it will use the wireframe to perform the desired navigation (to which screen and how to navigate). The wireframe can also contain transition animations.
+
 ## Why VIPER?
 After using VIPER, I've found it to be very beneficial in many ways. Let’s get back to the list of things we set out to accomplish when architecting our app to see if VIPER addresses them.
 
-- Easy to iterate on
-- Collaboration friendly
-- Separated out concerns
-- Spec-ability
+- Single responsibility principles applied.
+- Easy to iterate on.
+- Collaboration friendly.
+- Separated out concerns.
+- Spec-ability.
+- Testability. 
 
 ## Next steps
 
