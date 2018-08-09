@@ -9,6 +9,6 @@
 import UIKit
 
 /// ___VARIABLE_productName:identifier___ Module Entity
-struct E___VARIABLE_productName:identifier___ {
+struct ___VARIABLE_productName:identifier___Entity {
 
 }
