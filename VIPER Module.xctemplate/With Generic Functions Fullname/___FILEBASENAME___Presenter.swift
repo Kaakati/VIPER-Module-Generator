@@ -16,9 +16,9 @@ class ___VARIABLE_productName:identifier___Presenter {
     private var wireframe: ___VARIABLE_productName:identifier___RouterProtocol
     
     init(view: ___VARIABLE_productName:identifier___ViewProtocol) {
-        self.view = _view
-        self.interactor = ___VARIABLE_productName:identifier___InteractorProtocol()
-        self.wireframe = ___VARIABLE_productName:identifier___RouterProtocol()
+        self._view = view
+        self.interactor = ___VARIABLE_productName:identifier___Interactor()
+        self.wireframe = ___VARIABLE_productName:identifier___Router()
     }
 }
 
