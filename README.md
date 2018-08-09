@@ -23,7 +23,18 @@ When you decide to use VIPER architecture in your project, it feels overwhelming
 ## Generated files
 This template generates all files that you need to create a new VIPER module. All generated code is Swift 3.2 & Swift 4 compatible.
 
-#### With OR Without Generic Functions.
+#### The Fullname Selection will Generate Generic Functions.
+| File Name | Acts As | Description |
+| :---         |     :---      |          :--- |
+| `YourFileNameViewUI.swift`   | UIView     | This is where your design layout should be.  |
+| `YourFileNameContract.swift`    | Contract   | This is where all your VIPER protocols should be implemented. |
+| `YourFileNameView.swift`    | View       | If you use Storyboard, Link this to it and ignore UI file.   |
+| `YourFileNameInteractor.swift`    | Interactor | This is what will communicate with the Data Layer and Entity.      |
+| `YourFileName.swiftPresenter`    | Presenter  | This is what will communicate with the View and the Interactor.      |
+| `YourFileNameEntity.swift`    | Entity     | This is the Entity, It's should be a String respresntation of your Model.    |
+| `YourFileNameRouter.swift`    | Router     | This is where your routes to another views should be.    |
+
+#### Other Dropdown Selections With OR Without Generic Functions.
 | File Name | Acts As | Description |
 | :---         |     :---      |          :--- |
 | `YourFileNameUI.swift`   | UIView     | This is where your design layout should be.  |
@@ -37,7 +48,7 @@ This template generates all files that you need to create a new VIPER module. Al
 #### BaseViewProtocol Option.
 | File Name | Acts As | Description |
 | :---         |     :---      |          :--- |
-| `BaseViewProtocol.swift`   | UIViewController     | This where application wide UI Loaders should be.  |
+| `BaseViewProtocol.swift`   | UIViewController     | This where application wide UI Loaders OR TabBar should be.  |
 
 ## How to install
 
