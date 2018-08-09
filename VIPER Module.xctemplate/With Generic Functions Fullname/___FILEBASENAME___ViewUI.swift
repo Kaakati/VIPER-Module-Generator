@@ -18,8 +18,8 @@ protocol ___VARIABLE_productName:identifier___ViewUIDelegate {
 /// MODULEUI Data Source
 protocol ___VARIABLE_productName:identifier___ViewUIDataSource {
     // This will be implemented in the Module View.
-    /// Set Object for the UI
-    func objectFor(view: ___VARIABLE_productName:identifier___ViewUI) -> ___VARIABLE_productName:identifier___Entity
+    /// Set Object for the UI Component
+    func objectFor(ui: ___VARIABLE_productName:identifier___ViewUI) -> ___VARIABLE_productName:identifier___Entity
 }
 
 class ___VARIABLE_productName:identifier___ViewUI: UIView {
