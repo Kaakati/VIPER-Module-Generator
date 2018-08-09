@@ -14,6 +14,7 @@ When you decide to use VIPER architecture in your project, it feels overwhelming
 
 ## Available Generator options:
 * [x] BaseViewProtocol - A Common Functions Placeholder.
+* [x] With Generic Functions & Fullname - check Table below.
 * [x] With Generic Functions - Protocols with Generic Functions ready for implementation.
 * [x] Without Generic Functions.
 
@@ -23,14 +24,15 @@ When you decide to use VIPER architecture in your project, it feels overwhelming
 ## Generated files
 This template generates all files that you need to create a new VIPER module. All generated code is Swift 3.2 & Swift 4 compatible.
 
-#### The Fullname Selection will Generate Generic Functions.
+#### The Fullname Selection will Generate Fullname Protocols with Generic Functions.
+
 | File Name | Acts As | Description |
 | :---         |     :---      |          :--- |
 | `YourFileNameViewUI.swift`   | UIView     | This is where your design layout should be.  |
 | `YourFileNameContract.swift`    | Contract   | This is where all your VIPER protocols should be implemented. |
 | `YourFileNameView.swift`    | View       | If you use Storyboard, Link this to it and ignore UI file.   |
 | `YourFileNameInteractor.swift`    | Interactor | This is what will communicate with the Data Layer and Entity.      |
-| `YourFileName.swiftPresenter`    | Presenter  | This is what will communicate with the View and the Interactor.      |
+| `YourFileNamePresenter.swift`    | Presenter  | This is what will communicate with the View and the Interactor.      |
 | `YourFileNameEntity.swift`    | Entity     | This is the Entity, It's should be a String respresntation of your Model.    |
 | `YourFileNameRouter.swift`    | Router     | This is where your routes to another views should be.    |
 
