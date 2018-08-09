@@ -13,7 +13,7 @@
 	<key>DefaultCompletionName</key>
 	<string>SwiftViperModule</string>
 	<key>Description</key>
-	<string>Basic Swift VIPER module template. Creates View, Interactor, Presenter, Router with protocols.</string>
+	<string>Basic Swift VIPER module template. Creates View, Interactor, Presenter, Router &amp; Entity with protocols.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
@@ -45,6 +45,7 @@
       <dict>
         <key>templateType</key>
         <array>
+					<string>With Generic Functions Fullname</string>
 					<string>With Generic Functions</string>
 	        <string>Without Generic Functions</string>
         </array>
@@ -64,9 +65,10 @@
       <key>Type</key>
       <string>popup</string>
       <key>Default</key>
-      <string>With Generic Functions</string>
+      <string>With Generic Functions Fullname</string>
       <key>Values</key>
       <array>
+				<string>With Generic Functions Fullname</string>
         <string>With Generic Functions</string>
         <string>Without Generic Functions</string>
 				<string>Create BaseViewProtocol</string>
