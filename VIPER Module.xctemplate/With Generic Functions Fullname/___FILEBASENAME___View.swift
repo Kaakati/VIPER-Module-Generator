@@ -9,7 +9,7 @@
 import UIKit
 
 /// ___VARIABLE_productName:identifier___ Module View
-class ___VARIABLE_productName:identifier___ViewProtocol: UIViewController {
+class ___VARIABLE_productName:identifier___View: UIViewController {
     
     private let ui = ___VARIABLE_productName:identifier___ViewUI()
     private var presenter: ___VARIABLE_productName:identifier___PresenterProtocol!
@@ -25,7 +25,7 @@ class ___VARIABLE_productName:identifier___ViewProtocol: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        presenter = MODULEPresenter(view: self)
+        presenter = ___VARIABLE_productName:identifier___Presenter(view: self)
         
         // Informs the Presenter that the View is ready to receive data.
         presenter.fetch(objectFor: self)
@@ -33,17 +33,17 @@ class ___VARIABLE_productName:identifier___ViewProtocol: UIViewController {
     
 }
 
-// MARK: - extending ___VARIABLE_productName:identifier___ViewProtocol to implement it's protocol
-extension ___VARIABLE_productName:identifier___ViewProtocol: ___VARIABLE_productName:identifier___ViewProtocol {
+// MARK: - extending ___VARIABLE_productName:identifier___View to implement it's protocol
+extension ___VARIABLE_productName:identifier___View: ___VARIABLE_productName:identifier___ViewProtocol {
     
 }
 
-// MARK: - extending ___VARIABLE_productName:identifier___ViewProtocol to implement the custom ui view delegate
-extension ___VARIABLE_productName:identifier___ViewProtocol: ___VARIABLE_productName:identifier___ViewUIDelegate {
+// MARK: - extending ___VARIABLE_productName:identifier___View to implement the custom ui view delegate
+extension ___VARIABLE_productName:identifier___View: ___VARIABLE_productName:identifier___ViewUIDelegate {
     
 }
 
-// MARK: - extending ___VARIABLE_productName:identifier___ViewProtocol to implement the custom ui view data source
-extension ___VARIABLE_productName:identifier___ViewProtocol: ___VARIABLE_productName:identifier___ViewUIDataSource {
+// MARK: - extending ___VARIABLE_productName:identifier___View to implement the custom ui view data source
+extension ___VARIABLE_productName:identifier___View: ___VARIABLE_productName:identifier___ViewUIDataSource {
     // Pass the pre-defined object to the dataSource.
 }

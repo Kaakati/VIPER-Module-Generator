@@ -9,7 +9,7 @@
 import UIKit
 
 /// ___VARIABLE_productName:identifier___ Module Presenter
-class ___VARIABLE_productName:identifier___PresenterProtocol {
+class ___VARIABLE_productName:identifier___Presenter {
     
     weak private var _view: ___VARIABLE_productName:identifier___ViewProtocol?
     private var interactor: ___VARIABLE_productName:identifier___InteractorProtocol
@@ -23,6 +23,6 @@ class ___VARIABLE_productName:identifier___PresenterProtocol {
 }
 
 // MARK: - extending ___VARIABLE_productName:identifier___Presenter to implement it's protocol
-extension ___VARIABLE_productName:identifier___PresenterProtocol: ___VARIABLE_productName:identifier___PresenterProtocol {
+extension ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___PresenterProtocol {
     
 }
