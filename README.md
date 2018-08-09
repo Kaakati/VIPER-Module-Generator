@@ -24,7 +24,7 @@ When you decide to use VIPER architecture in your project, it feels overwhelming
 ## Generated files
 This template generates all files that you need to create a new VIPER module. All generated code is Swift 3.2 & Swift 4 compatible.
 
-#### The Fullname Selection will Generate Fullname Protocols with Generic Functions.
+#### The Fullname Selection will Generate Full Protocols file name with Generic Functions.
 
 | File Name | Acts As | Description |
 | :---         |     :---      |          :--- |
