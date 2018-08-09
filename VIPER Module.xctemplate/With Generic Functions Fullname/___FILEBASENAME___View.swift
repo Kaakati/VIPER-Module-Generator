@@ -9,41 +9,41 @@
 import UIKit
 
 /// ___VARIABLE_productName:identifier___ Module View
-class ___VARIABLE_productName:identifier___ViewController: UIViewController {
+class ___VARIABLE_productName:identifier___ViewProtocol: UIViewController {
     
-	fileprivate let ui = ___VARIABLE_productName:identifier___UI()
-	fileprivate var presenter: ___VARIABLE_productName:identifier___PresenterProtocol!
-
-	fileprivate var object : ___VARIABLE_productName:identifier___Entity?
-
-	override func loadView() {
-		// setting the custom view as the view controller's view
-		ui.delegate = self
-		ui.dataSource = self
-		view = ui
-  }
-
-	override func viewDidLoad() {
+    private let ui = ___VARIABLE_productName:identifier___ViewUI()
+    private var presenter: ___VARIABLE_productName:identifier___PresenterProtocol!
+    
+    private var object : ___VARIABLE_productName:identifier___Entity?
+    
+    override func loadView() {
+        // setting the custom view as the view controller's view
+        ui.delegate = self
+        ui.dataSource = self
+        view = ui
+    }
+    
+    override func viewDidLoad() {
         super.viewDidLoad()
-        presenter = ___VARIABLE_productName:identifier___Presenter(view: self)
-
-				// Informs the Presenter that the View is ready to receive data.
-				presenter.fetch(objectFor: self)
-  }
-
+        presenter = MODULEPresenter(view: self)
+        
+        // Informs the Presenter that the View is ready to receive data.
+        presenter.fetch(objectFor: self)
+    }
+    
 }
 
-// MARK: - extending V___VARIABLE_productName:identifier___ to implement it's protocol
-extension V___VARIABLE_productName:identifier___: V___VARIABLE_productName:identifier___Protocol {
-
+// MARK: - extending ___VARIABLE_productName:identifier___ViewProtocol to implement it's protocol
+extension ___VARIABLE_productName:identifier___ViewProtocol: ___VARIABLE_productName:identifier___ViewProtocol {
+    
 }
 
-// MARK: - extending V___VARIABLE_productName:identifier___ to implement the custom ui view delegate
-extension V___VARIABLE_productName:identifier___: V___VARIABLE_productName:identifier___UIDelegate {
-
+// MARK: - extending ___VARIABLE_productName:identifier___ViewProtocol to implement the custom ui view delegate
+extension ___VARIABLE_productName:identifier___ViewProtocol: ___VARIABLE_productName:identifier___ViewUIDelegate {
+    
 }
 
-// MARK: - extending V___VARIABLE_productName:identifier___ to implement the custom ui view data source
-extension V___VARIABLE_productName:identifier___: V___VARIABLE_productName:identifier___UIDataSource {
-		// Pass the pre-defined object to the dataSource.
+// MARK: - extending ___VARIABLE_productName:identifier___ViewProtocol to implement the custom ui view data source
+extension ___VARIABLE_productName:identifier___ViewProtocol: ___VARIABLE_productName:identifier___ViewUIDataSource {
+    // Pass the pre-defined object to the dataSource.
 }

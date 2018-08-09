@@ -9,6 +9,6 @@
 import UIKit
 
 /// ___VARIABLE_productName:identifier___ Module Interactor
-class I___VARIABLE_productName:identifier___: I___VARIABLE_productName:identifier___Protocol {
+class ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorProtocol {
 
 }

@@ -9,6 +9,6 @@
 import UIKit
 
 /// ___VARIABLE_productName:identifier___ Module Router (aka: Wireframe)
-class R___VARIABLE_productName:identifier___: R___VARIABLE_productName:identifier___Protocol {
+class ___VARIABLE_productName:identifier___Router: ___VARIABLE_productName:identifier___RouterProtocol {
         
 }
