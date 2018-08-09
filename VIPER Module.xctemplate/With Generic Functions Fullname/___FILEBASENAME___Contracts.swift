@@ -14,7 +14,7 @@ import UIKit
  & that will allow the View to act as a UIViewController;
  & Implement common view functions.
  */
-/// MODULE Module View Protocol
+/// ___VARIABLE_productName:identifier___ Module View Protocol
 protocol ___VARIABLE_productName:identifier___ViewProtocol: class {
     // Update UI with value returned.
     /// Set the view Object of Type ___VARIABLE_productName:identifier___Entity
@@ -22,7 +22,7 @@ protocol ___VARIABLE_productName:identifier___ViewProtocol: class {
 }
 
 //MARK: Interactor -
-/// MODULE Module Interactor Protocol
+/// ___VARIABLE_productName:identifier___ Module Interactor Protocol
 protocol ___VARIABLE_productName:identifier___InteractorProtocol {
     // Fetch Object from Data Layer
     func fetch(objectFor presenter: ___VARIABLE_productName:identifier___PresenterProtocol)

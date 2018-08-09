@@ -14,8 +14,8 @@ protocol ___VARIABLE_productName:identifier___ViewUIDelegate {
     // Send Events to Module View, that will send events to the Presenter; which will send events to the Receiver e.g. Protocol OR Component.
 }
 
-// MARK: MODULEUI Data Source -
-/// MODULEUI Data Source
+// MARK: ___VARIABLE_productName:identifier___ViewUI Data Source -
+/// ___VARIABLE_productName:identifier___ViewUI Data Source
 protocol ___VARIABLE_productName:identifier___ViewUIDataSource {
     // This will be implemented in the Module View.
     /// Set Object for the UI Component
@@ -53,7 +53,7 @@ class ___VARIABLE_productName:identifier___ViewUI: UIView {
     
     /// Reloading the data and update the ui according to the new data
     func reloadData() {
-        self.object = dataSource?.objectFor(view: self)
+        self.object = dataSource?.objectFor(ui: self)
         // Should update UI
     }
 }
