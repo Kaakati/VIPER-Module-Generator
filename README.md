@@ -107,8 +107,7 @@ VIPER is not a framework  but an approach to iOS application architecture, which
 >The interactor mainly contains business logic, e.g. logging in the user /  processing a purchase / sending a friend request. It should be independent of the UI. It only handles requests from the presenter and prepare corresponding data regardless of how the view looks like.
 
 #### ENTITY
->Entities are the model objects manipulated by an Interactor and only by the Interactor. It is simply an NSManagedObject. It is model orientated and therefore should not contain any business logic.
-Something like  is not supposed to be placed inside an Entity.
+>Entities are the model objects manipulated by an Interactor and only by the Interactor. It is simply a Struct. It is model orientated and therefore should not contain any business logic, Entity is not the Model, it's a represntation of the Model.
 
 #### ROUTING (WIREFRAME)
 >Wireframe defines the routes from one screen to another. In VIPER, the responsibility for Routing is shared between the presenter and the wireframe.
