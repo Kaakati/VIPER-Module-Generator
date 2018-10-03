@@ -24,19 +24,9 @@ When you decide to use VIPER architecture in your project, it feels overwhelming
 ## Generated files
 This template generates all files that you need to create a new VIPER module. All generated code is Swift 3.2 & Swift 4 compatible.
 
-#### The Fullname Selection will Generate Full Protocols file name with Generic Functions.
-
-| File Name | Acts As | Description |
-| :---         |     :---      |          :--- |
-| `YourFileNameViewUI.swift`   | UIView     | This is where your design layout should be.  |
-| `YourFileNameContract.swift`    | Contract   | This is where all your VIPER protocols should be implemented. |
-| `YourFileNameView.swift`    | View       | If you use Storyboard, Link this to it and ignore UI file.   |
-| `YourFileNameInteractor.swift`    | Interactor | This is what will communicate with the Data Layer and Entity.      |
-| `YourFileNamePresenter.swift`    | Presenter  | This is what will communicate with the View and the Interactor.      |
-| `YourFileNameEntity.swift`    | Entity     | This is the Entity, It's should be a String respresntation of your Model.    |
-| `YourFileNameRouter.swift`    | Router     | This is where your routes to another views should be.    |
-
+#### The Fullname dropdown will Generate full filenames with Generic Functions.
 #### Other Dropdown Selections With OR Without Generic Functions.
+
 | File Name | Acts As | Description |
 | :---         |     :---      |          :--- |
 | `VYourFileNameUI.swift`   | UIView     | This is where your design layout should be.  |
