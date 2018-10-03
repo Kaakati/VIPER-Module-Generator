@@ -120,7 +120,7 @@ Would you like decide what will be the next feature?
 
 * [x] Create bash script to install more easy.
 * [x] Divide Interactor protocol (Input & Output) (**NEW!** Version 1.1).
-* [x] Swift 4 & XCode 9 (**NEW!** Version 1.2).
+* [x] Swift 4.2 & XCode 10 (**NEW!** Version 1.4).
 * [ ] Create Data Layer for Interactor Implementations.
 * [ ] Create a Tutorial on how VIPER Works and how to Implement it in a real-life project.
 
