@@ -14,7 +14,7 @@ When you decide to use VIPER architecture in your project, it feels overwhelming
 
 ## Available Generator options:
 * [x] BaseViewProtocol - A Common Functions Placeholder.
-* [x] With Generic Functions & Fullname - check Table below.
+* [x] With Generic Functions & Shortname - Fullname filenames - check Table below for shortnames.
 * [x] With Generic Functions - Protocols with Generic Functions ready for implementation.
 * [x] Without Generic Functions.
 
