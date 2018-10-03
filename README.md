@@ -4,10 +4,6 @@
 
 ----
 
-> The knowledge that I own today is because of my parents support, What I am today is because of their efforts & hardwork providing the best, Thank you Mom & Dad :heart:.
-
-----
-
 Are you new to VIPER Design Pattern? Want to Learn it But feel overwhelmed of all the files you have to create?
 
 When you decide to use VIPER architecture in your project, it feels overwhelming to create new modules, because you need create at least 5 files for each. Imagine that you need to create 6 modules...We were suffering of this problem, and this is the reason why We've created this template. It's very useful for us and I hope that it be useful for you too.
@@ -132,6 +128,11 @@ Would you like decide what will be the next feature?
 ## Contributed
 This is an open source project, so feel free to contribute.
 - Open an [issue](https://github.com/Kaakti/VIPER-Module-Generator/issues/new).
+
+----
+
+> The knowledge that I own today is because of my parents support, What I am today is because of their efforts & hardwork providing the best, Thank you Mom & Dad :heart:.
+
 
 ## Authors
 
