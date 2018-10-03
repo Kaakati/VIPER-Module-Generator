@@ -39,7 +39,7 @@ This template generates all files that you need to create a new VIPER module. Al
 #### Other Dropdown Selections With OR Without Generic Functions.
 | File Name | Acts As | Description |
 | :---         |     :---      |          :--- |
-| `YourFileNameUI.swift`   | UIView     | This is where your design layout should be.  |
+| `VYourFileNameUI.swift`   | UIView     | This is where your design layout should be.  |
 | `CYourFileName.swift`    | Contract   | This is where all your VIPER protocols should be implemented. |
 | `VYourFileName.swift`    | View       | If you use Storyboard, Link this to it and ignore UI file.   |
 | `IYourFileName.swift`    | Interactor | This is what will communicate with the Data Layer and Entity.      |
