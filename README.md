@@ -1,3 +1,8 @@
+![Swift_Version](https://img.shields.io/badge/Swift-4.2-orange.svg)
+[![GitHub stars](https://img.shields.io/github/stars/Kaakati/VIPER-Module-Generator.svg)](https://github.com/Kaakati/VIPER-Module-Generator/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/Kaakati/VIPER-Module-Generator.svg)](https://github.com/Kaakati/VIPER-Module-Generator/issues)
+[![GitHub license](https://img.shields.io/github/license/Kaakati/VIPER-Module-Generator.svg)](https://github.com/Kaakati/VIPER-Module-Generator/blob/master/LICENSE)
+
 ![](assets/header.jpg)
 
 > Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
