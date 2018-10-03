@@ -11,9 +11,9 @@ import UIKit
 /// ___VARIABLE_productName:identifier___ Module Presenter
 class P___VARIABLE_productName:identifier___ {
 
-    weak fileprivate var view: V___VARIABLE_productName:identifier___Protocol?
-    fileprivate var interactor: I___VARIABLE_productName:identifier___Protocol
-    fileprivate var wireframe: R___VARIABLE_productName:identifier___Protocol
+    weak private var view: V___VARIABLE_productName:identifier___Protocol?
+    private var interactor: I___VARIABLE_productName:identifier___Protocol
+    private var wireframe: R___VARIABLE_productName:identifier___Protocol
 
     init(view: V___VARIABLE_productName:identifier___Protocol) {
         self.view = view

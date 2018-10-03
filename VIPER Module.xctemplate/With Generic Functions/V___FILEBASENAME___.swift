@@ -11,10 +11,10 @@ import UIKit
 /// ___VARIABLE_productName:identifier___ Module View
 class V___VARIABLE_productName:identifier___: UIViewController {
 
-	fileprivate let ui = V___VARIABLE_productName:identifier___UI()
-	fileprivate var presenter: P___VARIABLE_productName:identifier___Protocol!
+	private let ui = V___VARIABLE_productName:identifier___UI()
+	private var presenter: P___VARIABLE_productName:identifier___Protocol!
 
-	fileprivate var object : E___VARIABLE_productName:identifier___?
+	private var object : E___VARIABLE_productName:identifier___?
 
 	override func loadView() {
 		// setting the custom view as the view controller's view
@@ -27,8 +27,8 @@ class V___VARIABLE_productName:identifier___: UIViewController {
         super.viewDidLoad()
         presenter = P___VARIABLE_productName:identifier___(view: self)
 
-				// Informs the Presenter that the View is ready to receive data.
-				presenter.fetch(objectFor: self)
+		// Informs the Presenter that the View is ready to receive data.
+		presenter.fetch(objectFor: self)
   }
 
 }
@@ -45,5 +45,5 @@ extension V___VARIABLE_productName:identifier___: V___VARIABLE_productName:ident
 
 // MARK: - extending V___VARIABLE_productName:identifier___ to implement the custom ui view data source
 extension V___VARIABLE_productName:identifier___: V___VARIABLE_productName:identifier___UIDataSource {
-		// Pass the pre-defined object to the dataSource.
+	// Pass the pre-defined object to the dataSource.
 }
