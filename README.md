@@ -142,3 +142,4 @@ This is an open source project, so feel free to contribute.
 ## Authors
 
 * [Mohamad Kaakati](https://www.twitter.com/kaakati)
+* [Qutaibah Essa](https://www.twitter.com/qutaibah)
