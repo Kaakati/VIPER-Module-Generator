@@ -9,7 +9,7 @@
 import Foundation
 
 let templateName = "VIPER Module.xctemplate"
-let destinationRelativePath = "/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application"
+let destinationRelativePath = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application"
 
 func printInConsole(_ message:Any){
     print("====================================")
@@ -20,7 +20,7 @@ func printInConsole(_ message:Any){
 func moveTemplate(){
 
     let fileManager = FileManager.default
-    let destinationPath = bash(command: "xcode-select", arguments: ["--print-path"]).appending(destinationRelativePath)
+    let destinationPath = destinationRelativePath //bash(command: "xcode-select", arguments: ["--print-path"]).appending(destinationRelativePath)
     do {
         if !fileManager.fileExists(atPath:"\(destinationPath)/\(templateName)"){
 
