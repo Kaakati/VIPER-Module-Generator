@@ -1,3 +1,4 @@
+[![Visits Badge](https://badges.pufler.dev/visits/kaakati/VIPER-Module-Generator)](https://badges.pufler.dev)
 ![Swift_Version](https://img.shields.io/badge/Swift-4.2-orange.svg)
 [![GitHub stars](https://img.shields.io/github/stars/Kaakati/VIPER-Module-Generator.svg)](https://github.com/Kaakati/VIPER-Module-Generator/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/Kaakati/VIPER-Module-Generator.svg)](https://github.com/Kaakati/VIPER-Module-Generator/issues)
